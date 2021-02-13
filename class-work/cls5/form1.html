@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <link rel="stylesheet" href="../../asset/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <h2>Personal Details</h2>
+        <div class="input-group">
+            <label for="name">Name :</label>
+            <input type="text" id="name">
+        </div>
+        <div class="input-group">
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="input-group">
+            <label for="email">E-mail Id :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="input-group">
+            <label for="gender">Gender</label>
+            <label for="male">
+                <input type="radio" name="gender" id="male" value="male"> Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female"> Female
+            </label>
+        </div>
+        <h2>Education Qualification</h2>
+        <div class="input-group">
+            <span>Degree</span>
+            <select name="degree" id="degree">
+                <option value="select group" selected>Select Group</option>
+                <option value="ssc">SSC</option>
+                <option value="hsc">HSC</option>
+                <option value="bsc">B.Sc </option>
+                <option value="msc">M.Sc</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <span>Engineering : </span>
+            <select name="engineering" id="engineering">
+                <option value="select group" selected>Select Group </option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="ece">ECE</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="hobbies">Hobbies :</label>
+            <label for="chess">
+                <input type="checkbox" name="hobby" id="chess"> Chess
+            </label>
+            <label for="book">
+                <input type="checkbox" name="hobby" id="book"> Reading Books
+            </label>
+        </div>
+        <h2>Address</h2>
+        <div class="input-group">
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="file">Attach Resume</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <button type="submit">Submit ></button>
+    </form>
+</body>
+
+</html>

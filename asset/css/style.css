@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+    margin: 50px auto;
+    font-size: 18px;
+}
+#table-1 td{
+    text-align: center;
+    padding: 5px;
+}
+table#table-2 td {
+    padding: 5px 15px;
+    text-align: center;
+}
