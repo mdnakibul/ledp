@@ -15,6 +15,16 @@ table#table-2 td {
     padding: 5px 15px;
     text-align: center;
 }
+
+/* Layout Table Styles  */
+
+table.layout td {
+    padding: 10px;
+}
+table.layout td img{
+    width:100%;
+    height:auto;
+}
 /* Form 1 Styles  */
 
 .text-red{
