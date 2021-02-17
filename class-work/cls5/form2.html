@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 2</title>
+    <link rel="stylesheet" href="../../asset/css/style.css">
 </head>
-<body>
-    <h3>Step 1 : Your Details</h3>
+<body bgcolor="#a1ef53">
     <form action="" id="your-details">
+        <h3>Step 1 : Your Details</h3>
         <div class="input-control">
             <label for="name">Name : </label>
             <input type="text" id="name" placeholder="First and Last Name">
@@ -16,6 +17,51 @@
         <div class="input-control">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="example@domail.com">
+        </div>
+        <div class="input-control">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Eg +8801XXXXXXXXX">
+        </div>
+        <h3>Step 2: Delivery Address</h3>
+        <div class="input-control">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input-control">
+            <label for="post-code">Post Code</label>
+            <input type="number" name="post-code" id="post-code">
+        </div>
+        <div class="input-control">
+            <label for="country">Country</label>
+            <input type="text" id="country">
+        </div>
+        <h3>Step 3: Card Details</h3>
+        <div class="input-control">
+            <p>Card type</p>
+            <label for="visa">
+                <input type="radio" name="card" id="visa"> Visa
+            </label>
+            <label for="visa">
+                <input type="radio" name="card" id="amex"> AmEx
+            </label>
+            <label for="visa">
+                <input type="radio" name="card" id="master-card"> Master Card
+            </label>
+        </div>
+        <div class="input-control">
+            <label for="card-number">Card Number</label>
+            <input type="number" name="card-number" id="card-number">
+        </div>
+        <div class="input-control">
+            <label for="security-code">Security Code </label>
+            <input type="number" name="security-code" id="security-code">
+        </div>
+        <div class="input-control">
+            <label for="name-on-card">Name on Card</label>
+            <input type="text" name="name-on-card" id="name-on-card" placeholder="Exact same on the card">
+        </div>
+        <div class="submit">
+            <button type="submit">BUY IT</button>
         </div>
     </form>
 </body>

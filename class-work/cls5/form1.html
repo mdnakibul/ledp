@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../../asset/css/style.css">
 </head>
 
-<body>
-    <form action="">
-        <h2>Personal Details</h2>
+<body bgcolor="#a1ef53">
+    <form action="" id="form-1">
+        <h2 class="text-red">Personal Details</h2>
         <div class="input-group">
             <label for="name">Name :</label>
             <input type="text" id="name">
@@ -33,7 +33,7 @@
                 <input type="radio" name="gender" id="female"> Female
             </label>
         </div>
-        <h2>Education Qualification</h2>
+        <h2 class="text-red">Education Qualification</h2>
         <div class="input-group">
             <span>Degree</span>
             <select name="degree" id="degree">
@@ -62,7 +62,7 @@
                 <input type="checkbox" name="hobby" id="book"> Reading Books
             </label>
         </div>
-        <h2>Address</h2>
+        <h2 class="text-red">Address</h2>
         <div class="input-group">
             <textarea name="address" id="address" cols="30" rows="10"></textarea>
         </div>
@@ -70,7 +70,9 @@
             <label for="file">Attach Resume</label>
             <input type="file" name="file" id="file">
         </div>
-        <button type="submit">Submit ></button>
+        <div class="input-group">
+            <button type="submit">Submit ></button>
+        </div>
     </form>
 </body>
 
